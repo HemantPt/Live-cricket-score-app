@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  background-color: #ffad65;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} 
+.searchBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 22px;
+}
+.searchBar input{
+  width: 300px;
+  padding: 5px;
+  font-size: 17px;
+  border: none;
+  background-color: #e6e4e4;
+  border-radius: 3px;
+}
+.searchBar button{
+  width: 100px;
+  height: 30px;
+  background-color: crimson;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.searchBar button:hover {
+  background-color: #b01030;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.searchBar button:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.heading img{
+  width: 30px;
+  height: 30px;
+}
+.heading p{
+  font-size: 28px;
+  font-weight: 600;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.card{
+  width: 350px;
+  padding: 11px;
+  border-radius: 6px;
+  background-color: rgb(238, 255, 144);
+  text-align: center;
+  margin-top: 22px;
+}
+.card .img{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.status{
+  font-size: 18px;
+  font-weight: 600;
+}
